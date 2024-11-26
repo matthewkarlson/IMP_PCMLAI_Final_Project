@@ -53,7 +53,7 @@ Graphical representation of residuals shows improved predictions after handling 
 
 ## Limitations
 
-- **Data Anomalies:** The dataset contains artifacts (e.g., many properties sold at $163,000), which can skew predictions. Removing these anomalies improves accuracy but reduces training data size.
+- **Data Anomalies:** The dataset contains artifacts, which can skew predictions. Removing these anomalies improves accuracy but reduces training data size.
 - **Feature Importance:** The model relies heavily on certain features, and missing or incomplete data for these can reduce performance.
 - **Generalizability:** The model is trained on a specific dataset and may not generalize well to other housing markets without retraining.
 
