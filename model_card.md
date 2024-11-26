@@ -10,7 +10,7 @@ The model takes as input a set of property features, including but not limited t
 - Overall quality and condition
 - Location-specific features
 
-These features are numerical or categorical and are preprocessed for model training.
+These features are numerical or categorical and are preprocessed for model training. I opted to only train on normal saleconditions.
 
 **Output:**  
 The output is a single numerical value predicting the sale price of the property in dollars.
