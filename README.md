@@ -22,7 +22,6 @@ Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost
 - **Random Forest**: Significant improvement, reducing errors and increasing R².
 - **XGBoost**: Best performance with lowest MAE and RMSE, confirmed through cross-validation and validation sets.
 
-Residual analysis revealed an anomaly: many properties were sold for $163,000, affecting predictions. Filtering these anomalies improved residual plots. XGBoost showed minimal bias and strong predictive capability.
 
 ![Screenshot](XGBoost_Residuals.png)
 
