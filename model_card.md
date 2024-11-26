@@ -10,7 +10,7 @@ The model takes as input a set of property features, including but not limited t
 - Overall quality and condition
 - Location-specific features
 
-These features are numerical or categorical and are preprocessed for model training. I opted to only train on normal saleconditions.
+These features are numerical or categorical and are preprocessed for model training. I opted to only train on normal saleconditions as this improved model performance.
 
 **Output:**  
 The output is a single numerical value predicting the sale price of the property in dollars.
@@ -20,6 +20,7 @@ The output is a single numerical value predicting the sale price of the property
 - **Advanced Models:** Random Forest Regressor and XGBoost Regressor.  
   - **Random Forest Regressor:** An ensemble learning method based on decision trees, robust to outliers and capable of capturing non-linear relationships.  
   - **XGBoost Regressor:** A gradient boosting model optimized for speed and performance, leveraging decision trees and iterative improvements through boosting.
+  - **CatBoost** is a gradient boosting algorithm developed by Yandex, optimized for categorical data. It handles categorical features natively without requiring extensive preprocessing like one-hot encoding or label encoding, making it highly efficient for datasets with mixed feature types. Additionally, it mitigates overfitting and provides fast training and prediction.
 
 ## Performance
 
