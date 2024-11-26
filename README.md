@@ -8,7 +8,7 @@ The dataset includes historical house sale prices and their features, sourced fr
 
 ## MODEL 
 We tested multiple models:
-1. **Linear Regression**: Used as a baseline but performed poorly due to the dataset's complexity.
+1. **Linear Regression**: Used as a baseline, performed at an acceptable level and served as a good benchmark.
 2. **Random Forest Regressor**: Chosen for its robustness and ability to capture non-linear relationships.
 3. **XGBoost Regressor**: Selected for its efficiency and superior performance after hyperparameter tuning.
 4. **CatBoost**: Performs well on categorical data
