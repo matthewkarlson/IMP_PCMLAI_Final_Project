@@ -23,7 +23,7 @@ Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost
 - **XGBoost**: Best performance with lowest MAE and RMSE, confirmed through cross-validation and validation sets.
 - **CatBoost**: I added this in afterwards to see if it would perform better than XGBoost but it didn't
 
-![Screenshot](CatBoost_Residuals.png)
+![Screenshot](CatBoostResiduals.png)
 
 ## CONTACT DETAILS
 For questions or feedback, feel free to contact me at [hello@mattkarlson.com](mailto:hello@mattkarlson.com).
