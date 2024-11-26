@@ -24,7 +24,7 @@ Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost
 
 Residual analysis revealed an anomaly: many properties were sold for $163,000, affecting predictions. Filtering these anomalies improved residual plots. XGBoost showed minimal bias and strong predictive capability.
 
-![Screenshot](image.png)
+![Screenshot](XGBoost_Residuals.png)
 
 ## CONTACT DETAILS
 For questions or feedback, feel free to contact me at [hello@mattkarlson.com](mailto:hello@mattkarlson.com).
