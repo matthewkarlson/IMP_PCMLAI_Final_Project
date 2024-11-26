@@ -4,7 +4,7 @@
 This project aims to predict house prices using advanced machine learning models. By analyzing features like location, size, and other property attributes, the goal is to create an accurate, data-driven tool for estimating house values. This can help buyers, sellers, and real estate professionals make informed decisions. The project evaluates different models to identify the best performing algorithm for this task.
 
 ## DATA
-The dataset includes historical house sale prices and their features, sourced from [Kaggle's House Prices: Advanced Regression Techniques competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). Key features include property size, location, and condition. This dataset was preprocessed to handle missing values and anomalies (e.g., many properties sold at $163,000).
+The dataset includes historical house sale prices and their features, sourced from [Kaggle's House Prices: Advanced Regression Techniques competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). Key features include property size, location, and condition. This dataset was preprocessed to handle missing values and anomalies.
 
 ## MODEL 
 We tested multiple models:
