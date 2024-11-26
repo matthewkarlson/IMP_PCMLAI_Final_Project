@@ -48,7 +48,7 @@ The output is a single numerical value predicting the sale price of the property
   Best performance with well-tuned hyperparameters. Residual plots confirmed minimal bias.
 
 **Visualization:**  
-![Screenshot](image.png)  
+![Screenshot](residual_no_anomalies.png)  
 Graphical representation of residuals shows improved predictions after handling data anomalies.
 
 ## Limitations
