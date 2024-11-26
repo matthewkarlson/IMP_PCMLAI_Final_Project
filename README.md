@@ -12,7 +12,6 @@ We tested multiple models:
 2. **Random Forest Regressor**: Chosen for its robustness and ability to capture non-linear relationships.
 3. **XGBoost Regressor**: Selected for its efficiency and superior performance after hyperparameter tuning.
 4. **CatBoost**: Performs well on categorical data
-XGBoost emerged as the best model, balancing accuracy and interpretability.
 
 ## HYPERPARAMETER OPTIMIZATION
 Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost (e.g., learning rate, tree depth) were optimized using RandomizedSearchCV. This approach efficiently searched a predefined parameter space to minimize mean absolute error (MAE). 
@@ -21,7 +20,7 @@ Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost
 - **Linear Regression**: High MAE and RMSE, indicating poor fit to data.
 - **Random Forest**: Significant improvement, reducing errors and increasing R².
 - **XGBoost**: Best performance with lowest MAE and RMSE, confirmed through cross-validation and validation sets.
-- **CatBoost**: I added this in afterwards to see if it would perform better than XGBoost but it didn't
+- **CatBoost**: I added this in afterwards to see if it would perform better than XGBoost but it didn't initially. I ended up removed some outliers and it turned out to perform the best!
 
 ![Screenshot](CatBoostResiduals.png)
 
