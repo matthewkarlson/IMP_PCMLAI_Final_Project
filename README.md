@@ -21,7 +21,7 @@ Hyperparameters for Random Forest (e.g., number of trees, max depth) and XGBoost
 - **Linear Regression**: High MAE and RMSE, indicating poor fit to data.
 - **Random Forest**: Significant improvement, reducing errors and increasing R².
 - **XGBoost**: Best performance with lowest MAE and RMSE, confirmed through cross-validation and validation sets.
-
+- **CatBoost**: I added this in afterwards to see if it would perform better than XGBoost but it didn't
 
 ![Screenshot](XGBoost_Residuals.png)
 
